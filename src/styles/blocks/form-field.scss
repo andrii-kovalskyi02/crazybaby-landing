@@ -28,11 +28,11 @@
 
     resize: none;
 
-    @include onTablet {
+    @include on-tablet {
       height: 200px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       height: 128px;
     }
   }

@@ -7,7 +7,7 @@
   width: 24px;
   height: 24px;
 
-  background-image: url(/images/icons/scroll-to-top.svg);
+  background-image: url(../images/icons/scroll-to-top.svg);
   background-position: center;
   background-repeat: no-repeat;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -16,11 +16,11 @@
 
   transition: all $transition-duration;
 
-  @include onTablet {
+  @include on-tablet {
     right: 30px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     right: 40px;
     bottom: 50px;
   }

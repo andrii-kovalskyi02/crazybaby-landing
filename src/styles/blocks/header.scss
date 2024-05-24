@@ -3,7 +3,7 @@
     height: 100vh;
     padding-top: $header-top-padding-mobile;
 
-    @include onTablet {
+    @include on-tablet {
       height: initial;
       padding-top: $header-top-padding-desktop;
     }
@@ -11,19 +11,20 @@
 
   &__top {
     @include top-actions;
+
     margin-bottom: 25px;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 129px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-bottom: 90px;
     }
   }
 
   &__menu-opener {
-    @include onTablet {
+    @include on-tablet {
       display: none;
     }
   }
@@ -31,7 +32,7 @@
   &__menu-buttons {
     display: none;
 
-    @include onTablet {
+    @include on-tablet {
       display: flex;
       align-items: center;
       gap: 10px;
@@ -59,7 +60,7 @@
   &__main-content {
     display: block;
 
-    @include onTablet {
+    @include on-tablet {
       display: flex;
       flex-direction: row-reverse;
       justify-content: start;
@@ -71,7 +72,7 @@
     width: 100%;
     margin-bottom: 40px;
 
-    @include onTablet {
+    @include on-tablet {
       margin: 0;
     }
   }
@@ -85,7 +86,7 @@
     text-align: left;
     text-transform: uppercase;
 
-    @include onTablet {
+    @include on-tablet {
       max-width: 340px;
       margin-bottom: 30px;
 
@@ -93,7 +94,7 @@
       line-height: 62px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       max-width: 378px;
       font-size: 62px;
       line-height: 78px;
@@ -105,7 +106,7 @@
     font-size: 16px;
     line-height: 24px;
 
-    @include onTablet {
+    @include on-tablet {
       max-width: 250px;
     }
   }

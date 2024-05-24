@@ -6,12 +6,13 @@
 
   overflow-y: auto;
 
-  @include onTablet {
+  @include on-tablet {
     display: none;
   }
 
   &__top {
     @include top-actions;
+
     margin-bottom: 44px;
   }
 

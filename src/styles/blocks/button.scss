@@ -22,11 +22,11 @@
 
     @include hover(background-color, $c-swiper);
 
-    @include onTablet {
+    @include on-tablet {
       height: 40px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       width: 123px;
       height: 48px;
     }

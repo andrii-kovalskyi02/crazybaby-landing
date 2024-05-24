@@ -6,13 +6,13 @@
   }
 }
 
-@mixin onTablet {
+@mixin on-tablet {
   @media (min-width: 768px) {
     @content;
   }
 }
 
-@mixin onDesktop {
+@mixin on-desktop {
   @media (min-width: 1024px) {
     @content;
   }

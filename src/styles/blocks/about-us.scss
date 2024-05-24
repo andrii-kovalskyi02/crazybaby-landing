@@ -1,11 +1,11 @@
 .about-us {
-  overflow-x: hidden;
+  overflow-x: clip;
 
   @media (min-width: 220px) {
-    height: 1460px;
+    height: auto;
   }
 
-  @include onTablet {
+  @include on-tablet {
     height: 960px;
   }
 
@@ -14,7 +14,7 @@
 
     margin-bottom: 110px;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 200px;
     }
 
@@ -26,7 +26,7 @@
   &__img-container {
     overflow: hidden;
 
-    @include onTablet {
+    @include on-tablet {
       position: absolute;
       top: 0;
       left: -5%;
@@ -34,19 +34,19 @@
       height: 415px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       left: 0;
 
       height: 388px;
     }
 
     &--luna-eye {
-      @include onTablet {
+      @include on-tablet {
         left: unset;
         right: -5%;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         right: 0;
       }
     }
@@ -63,11 +63,11 @@
 
     transition: transform 0.3s;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 0;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       &:hover {
         transform: scale(1.1);
       }
@@ -81,7 +81,7 @@
     line-height: 21px;
     color: $c-sub-text;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 60px;
 
       font-size: 16px;

@@ -8,13 +8,16 @@
   background-repeat: no-repeat;
 
   &--menu {
-    background-image: url(/images/icons/burger-menu.svg);
+    background-image: url(../images/icons/burger-menu.svg);
 
-    @include hover(background-image, url(/images/icons/burger-menu-hover.svg));
+    @include hover(
+      background-image,
+      url(../images/icons/burger-menu-hover.svg)
+    );
   }
 
   &--close {
-    background-image: url(/images/icons/icon-close.svg);
+    background-image: url(../images/icons/icon-close.svg);
 
     &:hover {
       animation: move 0.3s linear;

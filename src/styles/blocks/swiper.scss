@@ -2,7 +2,7 @@
   width: 100%;
   height: 340px;
 
-  @include onTablet {
+  @include on-tablet {
     display: none;
   }
 
@@ -10,7 +10,7 @@
     display: block;
     height: 372px;
 
-    @include onDesktop {
+    @include on-desktop {
       display: none;
     }
   }
@@ -30,7 +30,7 @@
     &-prev--custom {
       right: 50%;
 
-      @include onTablet {
+      @include on-tablet {
         right: initial;
         left: 0;
       }
@@ -39,7 +39,7 @@
     &-next--custom {
       left: 50%;
 
-      @include onTablet {
+      @include on-tablet {
         left: 45px;
       }
     }
@@ -61,7 +61,7 @@
       line-height: 13px;
       color: $c-swiper;
 
-      @include onTablet {
+      @include on-tablet {
         width: max-content !important;
         left: 20px !important;
       }

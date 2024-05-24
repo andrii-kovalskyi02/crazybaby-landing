@@ -1,15 +1,15 @@
 .testimonial {
   padding-top: 50px;
 
-  background-image: url(/images/icons/testimonials.svg);
+  background-image: url(../images/icons/testimonials.svg);
   background-position: top;
   background-repeat: no-repeat;
 
-  @include onTablet {
+  @include on-tablet {
     padding-top: 60px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     padding-top: 42px;
   }
 
@@ -21,18 +21,17 @@
     line-height: 20px;
     text-align: center;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 40px;
 
       font-size: 24px;
       line-height: 36px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin: 0 auto 30px;
       max-width: 786px;
     }
-
   }
 
   &__card {
